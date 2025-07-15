@@ -36,7 +36,6 @@ body:
       description: How critical is the issue for you?
       multiple: false
       options:
-        - none
         - nice to have
         - important
         - must have
