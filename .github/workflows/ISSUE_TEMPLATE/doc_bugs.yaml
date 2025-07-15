@@ -1,0 +1,44 @@
+name: Documentation Bug Report
+description: Report a documentation bug for SUSE Edge
+title: "[DOC]: "
+assignees:
+  - ranjinimn
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: textarea
+    id: link
+    attributes:
+      label: Link to the respective part of the docs
+      placeholder: Add a link to the doc section for which to report the bug
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description of the problem
+      description: Provide information and context that allows us to fully understand the problem
+    validations:
+      required: true
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional information
+      description: Provide additional information such as operating system, setup, etc.
+    validations:
+      required: false
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      description: How critical is the issue for you?
+      multiple: false
+      options:
+        - none
+        - nice to have
+        - important
+        - must have
+    validations:
+      required: false
