@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: SUSE Edge Documentation
+    url: https://github.com/suse-edge/suse-edge.github.io
+    about: The SUSE Edge documentation repository
